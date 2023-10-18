@@ -1,0 +1,1000 @@
+  115  tail -f error_log
+  116  tail -100 error_log
+  117  tail -f error_log
+  118  service httpd restart
+  119  tail -f error_log
+  120  service httpd restart
+  121  tail -f error_log
+  122  exit
+  123  tail -f /etc/httpd/logs/error_log
+  124  service httpd restart
+  125  tail -f /etc/httpd/logs/error_log
+  126  service httpd restart
+  127  conda activate pycpad2
+  128  conda install django-file-form
+  129  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-file-form
+  130  ls
+  131  cd /var/www/cgi-bin/
+  132  cp -r ANuPP ANuPP_bak10Jun2020
+  133  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip uninstall django-file-form
+  134  service httpd restart
+  135  tail -f /etc/httpd/logs/error_log
+  136  exit
+  137  ls
+  138  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-fineuploader
+  139  cd /var/www/cgi-bin/
+  140  ls
+  141  cp -r ANuPP_bak10Jun2020 ANuPP_backup/
+  142  cp -rf ANuPP_bak10Jun2020 ANuPP_backup/
+  143  man cp
+  144  ls
+  145  cd ANuPP_backup/
+  146  ls
+  147  rm -rf ./*
+  148  ls
+  149  cp -rf ../ANuPP_bak10Jun2020 ./
+  150  cp -rf ../NuAPRpred_0* ./
+  151  cd ../
+  152  mv ANuPP_bak10Jun2020/ ANuPP2
+  153  ls -l
+  154  chown karan -R ANuPP2
+  155  chown karan -R ANuPP_backup
+  156  chgrp karan -R ANuPP_backup
+  157  chgrp karan -R ANuPP2
+  158  cd ANuPP2
+  159  ls
+  160  cd ANuPP2/
+  161  ls
+  162  cd templates/
+  163  ls
+  164  vi homeseq.html
+  165  cd ../
+  166  vi urls.py
+  167  cd utils/
+  168  tail nohup.out 
+  169  gedit /etc/httpd/conf.d/wsgi.conf &
+  170  top
+  171  service httpd restart
+  172  cd ../
+  173  ls
+  174  chgrp anuppuser -R ./static/
+  175  chgrp anuppuser -R ./media/
+  176  chmod 770 -R ./static/
+  177  chmod 770 -R ./media/
+  178  ls
+  179  touch settings.py
+  180  ls -l
+  181  ls
+  182  cd utils/
+  183  tail nohup.out 
+  184  tail -20 nohup.out 
+  185  exit
+  186  ls
+  187  cd /etc/httpd/conf/
+  188  ls
+  189  cd ..
+  190  cd conf.d/
+  191  ls
+  192  vi ssl.conf
+  193  vi php.conf 
+  194  vi mod_dnssd.conf 
+  195  vi ssl.conf
+  196  vi python.conf 
+  197  ls
+  198  vi webalizer.conf 
+  199  vi wsgi.conf
+  200  cd ..
+  201  cd conf
+  202  ls
+  203  vi httpd.conf
+  204  service httpd restart
+  205  vi httpd.conf
+  206  service httpd restart
+  207  vi httpd.conf
+  208  service httpd restart
+  209  ls 
+  210  ls /var/www/html/bioinfo2/
+  211  vi httpd.conf
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd conf.d/
+  216  ls
+  217  vi nss.conf
+  218  vi php.conf 
+  219  vi /etc/php.ini 
+  220  cd ..
+  221  cd conf
+  222  ls
+  223  vi httpd.conf
+  224  cat /var/log/httpd/error_log
+  225  clear
+  226  time
+  227  date
+  228  tail /var/log/httpd/error_log
+  229  tail -n 20 /var/log/httpd/error_log
+  230  service httpd restart
+  231  vi httpd.conf
+  232  service httpd restart
+  233  tail -n 20 /var/log/httpd/error_log
+  234  date
+  235  ls
+  236  vi httpd.conf
+  237  service httpd restart
+  238  vi httpd.conf
+  239  service httpd restart
+  240  service apache2 restart
+  241  ls
+  242  cd ..
+  243  ls
+  244  cd conf.d/
+  245  ls
+  246  vi ssl.conf
+  247  service httpd restart
+  248  vi ssl.conf
+  249  ls
+  250  cd ..
+  251  ls
+  252  ls logs/
+  253  tail logs/ssl_access_log
+  254  tail logs/error_log
+  255  pwd
+  256  cd ..
+  257  ls
+  258  cd httpd/
+  259  ls
+  260  cd conf
+  261  ls
+  262  vi httpd.conf
+  263  exit
+  264  tail -f /etc/httpd/logs/error_log
+  265  service httpd restart
+  266  tail -f /etc/httpd/logs/error_log
+  267  service httpd restart
+  268  exit
+  269  conda activate pycpad2
+  270  conda install django-fineuploader
+  271  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-fileuploader
+  272  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-fineuploader
+  273  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-tables2
+  274  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-tables
+  275  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-tables2
+  276  exit
+  277  ls
+  278  cd ../
+  279  ls
+  280  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install drf-chunked-upload
+  281  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install -U django==2.1
+  282  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install -U pip
+  283  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install -U django==2.2
+  284  service httpd restart
+  285  gedit /etc/httpd/logs/error_log
+  286  tail -f /etc/httpd/logs/error_log
+  287  cd ../
+  288  cd CPAD2
+  289  ls
+  290  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py check
+  291  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py makemigrations
+  292  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate
+  293  ls
+  294  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py runserver
+  295  ls
+  296  cd CPAD2/
+  297  ls
+  298  rm -rf __pycache__/
+  299  ls
+  300  cd migrations/
+  301  ls
+  302  rm -rf ./*
+  303  ls
+  304  cd ../
+  305  ls
+  306  cd ../
+  307  ls
+  308  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py runserver
+  309  ls
+  310  cd config/
+  311  ls
+  312  cd ../
+  313  ls
+  314  cd ../
+  315  ls
+  316  cd CPAD2
+  317  service httpd restart
+  318  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py runserver
+  319  ls
+  320  cd CPAD2
+  321  ls
+  322  vi wsgi.wsgi
+  323  ls
+  324  gedit /etc/httpd/logs/error_log
+  325  tail /etc/httpd/logs/error_log
+  326  /opt/websites/anaconda/envs/pycpad2/bin/python3.5
+  327  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install -U sqlite3
+  328  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install -U sqlite
+  329  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install  sqlite
+  330  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install  sqlite3
+  331  conda activate py36
+  332  conda activate pycpad2
+  333  conda install sqlite3
+  334  conda install sqlite
+  335  /opt/websites/anaconda/envs/pycpad2/bin/python3.5
+  336  conda install sqlite
+  337  conda install sqlite3
+  338  conda install -U sqlite
+  339  conda upgrade sqlite
+  340  conda upgrade django=2.0
+  341  conda install django=2.0
+  342  ls
+  343  cd ../
+  344  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py check
+  345  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py makemigrations
+  346  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate
+  347  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migarte --deploy
+  348  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py check --deploy
+  349  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate --help
+  350  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate --run-syncdb
+  351  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate -help
+  352  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate --help
+  353  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate
+  354  mysql -V
+  355  ls
+  356  gedit CPAD2/settings.py 
+  357  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py migrate
+  358  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py check
+  359  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py runserver
+  360  ls
+  361  cd CPAD2/
+  362  ls
+  363  rm -rf __pycache__/
+  364  ls
+  365  cd ../
+  366  ls
+  367  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 manage.py runserver
+  368  ls
+  369  ls -l
+  370  cd CPAD2
+  371  ls
+  372  ls -l
+  373  cd ../
+  374  ls
+  375  cd ../
+  376  chown -R karan ./CPAD2
+  377  chgrp -R karan ./CPAD2
+  378  cd CPAD2
+  379  ls
+  380  cd CPAD2/
+  381  ls
+  382  chgrp -R anuppuser ./static
+  383  cd ../
+  384  ls
+  385  conda upgrade django=2.0
+  386  conda upgrade django=2.2
+  387  conda update django=2.2
+  388  conda install django=2.2
+  389  conda install django=2.0
+  390  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django==2.0
+  391  conda uninstall django=2.2
+  392  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip uninstall django==2.2
+  393  service httpd restart
+  394  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django==2.1
+  395  service httpd restart
+  396  ls
+  397  exit
+  398  /opt/websites/anaconda/envs/pycpad2/bin/python3 -m pip uninstall django-chunked-upload
+  399  /opt/websites/anaconda/envs/pycpad2/bin/python3 -m pip install django-chunked-upload
+  400  /opt/websites/anaconda/envs/pycpad2/bin/python3 -m pip install drf-chunked-upload
+  401  exit
+  402  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django==2.0
+  403  service httpd restart
+  404  ls
+  405  cd ../
+  406  exit
+  407  tail -f /etc/httpd/logs/error_log
+  408  tail -100 /etc/httpd/logs/error_log
+  409  ls media/
+  410  ls
+  411  cd media/
+  412  ls
+  413  conda activate pycpad2
+  414  conda install ai-django-fileupload
+  415  exit
+  416  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install ai-django-fileupload
+  417  chgrp anuppuser -R ./static/
+  418  chgrp anuppuser -R ./media/
+  419  chmod 770 -R ./media/
+  420  chmod 770 -R ./static/
+  421  cd ../
+  422  exit
+  423  service httpd restart
+  424  tail -f /etc/httpd/logs/error_log
+  425  ls
+  426  ls -l
+  427  cd media/
+  428  ls
+  429  ls -l
+  430  chgrp anuppuser -R ./fileuploads
+  431  ls -l
+  432  tail -f /etc/httpd/logs/error_log
+  433  ls
+  434  rm 6acc.pdb 
+  435  rm out.pdb 
+  436  cd ../
+  437  ls
+  438  touch wsgi.wsgi
+  439  tail -f /etc/httpd/logs/error_log
+  440  service httpd restart
+  441  tail -f /etc/httpd/logs/error_log
+  442  service httpd restart
+  443  tail -f /etc/httpd/logs/error_log
+  444  ls
+  445  service httpd restart
+  446  root123!
+  447  service httpd restart
+  448  ls
+  449  service httpd restart
+  450  tail -f /etc/httpd/logs/error_log /etc/httpd/logs/access_log
+  451  tail -f /etc/httpd/logs/error_log 
+  452  ls
+  453  su
+  454  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-chunk-upload
+  455  tail -f /etc/httpd/logs/error_log
+  456  ls
+  457  cd media/
+  458  ls
+  459  chgrp anuppuser -R ./*
+  460  chmod 770 -R ./*
+  461  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-braces
+  462  service httpd restart
+  463  cd /var/www/cgi-bin/ANuPP2
+  464  ls
+  465  cd ANuPP2/
+  466  gedit settings.py
+  467  service httpd restart
+  468  exit
+  469  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install drf-chunked-upload
+  470  exit
+  471  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install django-restframework
+  472  exit()
+  473  exit
+  474  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install djangorestframework
+  475  exit
+  476  pip install biopython
+  477  exit
+  478  python
+  479  exit
+  480  python2.7 -m install biopython
+  481  tail -n 20 /var/log/httpd/error_log
+  482  python2.7 -m pip install biopython
+  483  python2.7 -m pip install pip
+  484  python2.7 -m pip2 install pip2
+  485  pip install pip2
+  486  pip --version
+  487  python
+  488  python3.7
+  489  exit
+  490  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip uninstall drf-chunked-upload
+  491  conda activate pycpad2
+  492  conda install  drf-chunked-upload
+  493  /opt/websites/anaconda/envs/pycpad2/bin/python3.5 -m pip install drf-chunked-upload
+  494  cp -r ANuPP2 ./ANuPP_backup/ANuPP2_bak17Jun2020_exps
+  495  cp -r djangotest ./ANuPP_backup/
+  496  chown karan -R ./ANuPP_backup/
+  497  chgrp karan -R ./ANuPP_backup/
+  498  cd ANuPP2
+  499  ls
+  500  exit
+  501  service httpd restart
+  502  exit
+  503  tail /var/log/httpd/error_log
+  504  tail -n 20 /var/log/httpd/error_log
+  505  exit
+  506  tail -n 20 /var/log/httpd/error_log
+  507  reset
+  508  tail -n 20 /var/log/httpd/error_log
+  509  yum install mafft
+  510  ls
+  511  cd /var/www/html/bioinfo2/softwares/mafft/
+  512  ls
+  513  rpm -Uvh mafft-7.450-gcc_fc6.x86_64.rpm 
+  514  ls
+  515  mafft
+  516  clear
+  517  exit
+  518  history|tail
+  519  history|tail -n 50
+  520  reset
+  521  history|tail -n 50
+  522  clear
+  523  ls
+  524  exit
+  525  python2.7 -m ensurepip
+  526  python2.7 setup.py build
+  527  python2.7 -m
+  528  python2.7 -m pip
+  529  python -m ensurepip --default-pip
+  530  python2.7 -m ensurepip --default-pip
+  531  cd ..
+  532  ls
+  533  mkdir pip2
+  534  cd pip2/
+  535  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  536  ls
+  537  python2.7 get-pip.py 
+  538  pip --version
+  539  ls
+  540  python2.7 -m pip install pip 
+  541  python2.7 -m pip install biopython
+  542  cd ..
+  543  ls
+  544  cd biopython-1.77
+  545  ls
+  546  python2.7 setup.py build
+  547  yum install python-biopython
+  548  python2.7
+  549  locate Bio
+  550  locate Bio|grep setup.py
+  551  locate Bio|grep "/Bio"
+  552  locate Bio|grep "/Bio/"
+  553  locate Bio|grep "/Bio/"|more
+  554  python2.7
+  555  which python2.7
+  556  locate python2.7
+  557  locate python2.7|grep site-packages 
+  558  locate python2.7|grep site-packages |grep probio
+  559  locate python2.7|grep site-packages |grep root
+  560  which python2.7
+  561  ls /usr/local/bin/python2.7
+  562  ls /usr/local/bin/
+  563  pip2
+  564  pip2 install biopython
+  565  ls
+  566  locate biopython-1.6
+  567  locate biopython-1.7
+  568  locate biopython-1.6
+  569  python2.7
+  570  pip2 install pdbtools
+  571  python2.7
+  572  pip2 install ps4
+  573  pip2 install bs4
+  574  python2.7
+  575  pip2 install numpy
+  576  python2.7
+  577  ls
+  578  python2.7 setup.py build
+  579  cd Bio
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd ..
+  584  mkdir biopython
+  585  cd biopython
+  586  ls
+  587  yum install python-biopython
+  588  locate python-biopython-1,6
+  589  locate python-biopython-1.66
+  590  locate biopython-1.66
+  591  yum remove python-biopython
+  592  yum install python-biopython
+  593  python2.7
+  594  yum install python-biopython
+  595  pip2 install python-biopython
+  596  yum remove python-biopython
+  597  yum install python-biopython
+  598  python2.7
+  599  yum remove python-biopython
+  600  history |grep curl
+  601  history |grep biopython
+  602  ls
+  603  clear
+  604  cd ..
+  605  ls
+  606  cd biopython-1.72/
+  607  ls
+  608  cd ..
+  609  cd biopython1.72
+  610  cd biopython-1.72
+  611  ls
+  612  python2.7 setup.py build
+  613  python2.7 setup.py test
+  614  python2.7 setup.py install
+  615  python2.7
+  616  cd 
+  617  cd /var/www/
+  618  ls
+  619  cd html/bioinfo2/
+  620  ls
+  621  clear
+  622  ls
+  623  chmod -R 777 mpthermpred
+  624  ls
+  625  cd cgi-bin/
+  626  ls
+  627  chmod -R 777 mpthermpred
+  628  tail /var/log/httpd/error_log
+  629  ls
+  630  cd mpthermpred/
+  631  ls
+  632  exit
+  633  service httpd restart
+  634  cd /var/www/cgi-bin/ANuPP2
+  635  exit
+  636  cd /var/www/cgi-bin/ANuPP2
+  637  service httpd restart
+  638  tail -f /etc/httpd/logs/error_log
+  639  exit
+  640  ls
+  641  chgrp anuppuser -R static/
+  642  chgrp anuppuser -R media/
+  643  exit
+  644  tail -f /etc/httpd/logs/error_log
+  645  tail -f /etc/httpd/logs/error_log | grep ANuPP
+  646  service httpd restart
+  647  tail -f /etc/httpd/logs/error_log | grep ANuPP
+  648  tail -f /etc/httpd/logs/error_log 
+  649  cat /etc/httpd/logs/error_log | grep ANuPP
+  650  gedit settings.py
+  651  cat /etc/httpd/logs/error_log | grep ANuPP
+  652  service httpd restart
+  653  tail -f /var/log/httpd/error_log
+  654  yum install naccess
+  655  yum install f77
+  656  crypt
+  657  mcrypt
+  658  rar
+  659  yum install crypt
+  660  yum install mcrypt
+  661  ls
+  662  cd /var/www/html/bioinfo2/softwares/
+  663  ls
+  664  cd naccess/
+  665  ls
+  666  mcrypt -d -k "nac97" naccess.tar.gz.nc.gz naccess.tar.gz
+  667  mcrypt -d -k "nac97" < naccess.tar.gz.nc.gz > naccess.tar.gz
+  668  ls
+  669  tar -xvfzj naccess.tar.gz
+  670  tar -xvfz naccess.tar.gz
+  671  tar -xvf naccess.tar.gz
+  672  ls
+  673  gzip -dc naccess.tar.gz | tar -xvf -
+  674  gzip
+  675  ls
+  676  gzip naccess.tar.gz.nc.gz 
+  677  ls
+  678  unzip naccess.tar.gz.nc.gz 
+  679  ls
+  680  mcrypt -d -k "nac97" < naccess.tar.gz.nc > naccess.tar.gz
+  681  ls
+  682  gzip -dc naccess.tar.gz | tar -xvf -
+  683  ls
+  684  cd naccess2.1.1/
+  685  ls
+  686  cat README 
+  687  LS
+  688  ls
+  689  csh install.scr 
+  690  yum install fort77
+  691  yum install gfortran
+  692  yum install compat-gcc-34-g77
+  693  f77
+  694  clear
+  695  ls
+  696  csh install.scr 
+  697  ls
+  698  ./naccess
+  699  cd ..
+  700  ls
+  701  cd ..
+  702  ls
+  703  cd mpthermpred/
+  704  ls
+  705  cd pred
+  706  ls
+  707  ./naccess 1i5r_btsiknA.pdb 
+  708  cp ../../softwares/naccess/naccess .
+  709  cp ../../softwares/naccess/naccess2.1.1/naccess .
+  710  ./naccess 1i5r_btsiknA.pdb 
+  711  ls
+  712  cd ..
+  713  ls
+  714  cd pred
+  715  ls
+  716  ./naccess 1i5r_btsiknA.pdb
+  717  tail -f /var/log/httpd/error_log
+  718  python2.7
+  719  reset
+  720  tail -f /var/log/httpd/error_log
+  721  cd 4l4h_baj0qs/
+  722  ls
+  723  ./blastdbcmd -entry UniRef90_A2AGL3,UniRef90_B0LPN4,UniRef90_E9Q401,UniRef90_F1LMY4,UniRef90_P11716,UniRef90_P16960,UniRef90_P21817,UniRef90_P30957,UniRef90_Q15413,UniRef90_Q24498,UniRef90_Q92736,UniRef90_Q9TS33 -db ../../db/uniref-uniprot_reviewed_identity_0.9_single_line_seq.fasta
+  724  tail -f /var/log/httpd/error_log
+  725  clear
+  726  ls
+  727  cd ..
+  728  ls
+  729  history |tail
+  730  cd ..
+  731  ls
+  732  cd ..
+  733  ls
+  734  cd softwares/
+  735  ls
+  736  cd depth/
+  737  ls
+  738  tar -xvzf depth_source.tar.gz 
+  739  ls
+  740  cd depth_source
+  741  ls
+  742  cd bin/
+  743  ls
+  744  cd ..
+  745  ls
+  746  cd mpthermpred/
+  747  ls
+  748  cd pred
+  749  ls
+  750  cp ../../softwares/depth/depth_source/
+  751  cp ../../softwares/depth/depth_source/bin/DEPTH .
+  752  ls
+  753  cd 2j1n_l9doaq/
+  754  ls
+  755  ./DEPTH -i 2j1n_l9doaq.pdb -o p.out
+  756  cd ..
+  757  ls
+  758  ./DEPTH -i 1i5r_btsiknA.pdb -o oo.out
+  759  cd ../../softwares/depth/depth_source/bin
+  760  ls
+  761  make
+  762  cd ..
+  763  ls
+  764  cd ..
+  765  ls
+  766  cd ..
+  767  ls
+  768  cd mpthermpred/
+  769  ls
+  770  pred
+  771  cd pred
+  772  ls
+  773  cp ../../softwares/depth/depth_source/bin/DEPTH .
+  774  ./DEPTH -i 1i5r_btsiknA.pdb -o oo.out
+  775  vi oo.out
+  776  cp 1i5r_btsiknA.pdb ../../softwares/depth/depth_source/bin/
+  777  cd ../../softwares/depth/depth_source/bin/
+  778  ls
+  779  ./DEPTH -i 1i5r_btsiknA.pdb -o oo.out
+  780  cat oo.out
+  781  pwd
+  782  cd ..
+  783  cd mpthermpred/pred/
+  784  ls
+  785  cd 4ovn_3ethrj/
+  786  ls
+  787  cd /var/www/html/bioinfo2/softwares/naccess/naccess2.1.1/
+  788  ls
+  789  cd ..
+  790  cd mpthermpred/pred/
+  791  ls
+  792  cd 4ovn_3ethrj/
+  793  ls
+  794  ./naccess -i 4ovn_3ethrjF.pdb
+  795  ls
+  796  ./naccess -i 4ovn_3ethrjF.pdb 
+  797  ./naccess -i MUT_4ovn_3ethrjF_atoms_1.pdb 
+  798  tail -f /var/log/httpd/error_log
+  799  ls
+  800  cp ../../ANuPP ../../ANuPP_backup/ANuPP_1.9_bak19Jun2020
+  801  cp -r ../../ANuPP ../../ANuPP_backup/ANuPP_1.9_bak19Jun2020
+  802  ls
+  803  cp -r ../../ANuPP2/ANuPP2/* ./
+  804  cp -rf ../../ANuPP2/ANuPP2/* ./
+  805  y
+  806  ls
+  807  ls -l
+  808  rm -rf __pycache__/
+  809  cd utils/
+  810  rm -rf __pycache__/
+  811  cd ../
+  812  rm -rf ../__pycache__/
+  813  ls
+  814  ls ./*\~
+  815  rm ./*\~
+  816  ls ./templates//*\~
+  817  rm ./templates//*\~
+  818  rm -f ./templates//*\~
+  819  l
+  820  gedit settings.py &
+  821  ls
+  822  cd ./
+  823  cd ../
+  824  ls
+  825  gedit settings.py &
+  826  gedit ANuPP/settings.py &
+  827  ls
+  828  cd ANuPP/
+  829  ls
+  830  chgrp -R anuppuser ./media/
+  831  chgrp -R anuppuser ./static/
+  832  chmod -R 770 ./static/
+  833  chmod -R 770 ./media/
+  834  ls
+  835  gedit settings.py &
+  836  service httpd restart
+  837  tail -f /etc/httpd/logs/error_log
+  838  tail -100 /etc/httpd/logs/error_log
+  839  ls
+  840  service httpd restart
+  841  tail -100 /etc/httpd/logs/error_log
+  842  service httpd restart
+  843  exit
+  844  gedit /etc/httpd/conf/httpd.conf
+  845  exit
+  846  tail -f /var/log/httpd/error_log
+  847  ls
+  848  cd /var/www/html/
+  849  ls
+  850  cd bioinfo2/
+  851  ls
+  852  ls PCA-Pred/ -L
+  853  ls PCA-Pred/ -l
+  854  chmod 777 -R PCA-Pred
+  855  ls PCA-Pred -L
+  856  ls PCA-Pred -l
+  857  cd ..
+  858  cd bioinfo2/cgi-bin/
+  859  ls
+  860  chmod 777 -R pcapred
+  861  ls pcapred -l
+  862  tail -f /var/log/httpd/error_log
+  863  ls
+  864  pip install padelpy
+  865  pip2 install rdkit
+  866  cd ../softwares/pychem/
+  867  ls
+  868  cd pychem-1.0
+  869  ls
+  870  python2.7 setup.py install
+  871  ls
+  872  cd ..
+  873  ls
+  874  cd ..
+  875  cd chemopy/chemopy-1.0
+  876  ls
+  877  python2.7 setup.py install
+  878  clear
+  879  cd ..
+  880  ls
+  881  cd ..
+  882  ls
+  883  cd ..
+  884  ls
+  885  tail -f /var/log/httpd/error_log
+  886  python3.7
+  887  which python3.7
+  888  tail -f /var/log/httpd/error_log
+  889  msms
+  890  yum install msms
+  891  which python3.7
+  892  tail -f /var/log/httpd/error_log
+  893  python3.7
+  894  conda
+  895  conda install -c bioconda msms
+  896  msms
+  897  tail -f /var/log/httpd/error_log
+  898  exit
+  899  which msms
+  900  cp /opt/websites/anaconda/bin/msms /usr/bin/
+  901  tail -f /var/log/httpd/error_log
+  902  ls
+  903  cd /var/www/html/bioinfo2/cgi-bin/pcapred/
+  904  ls
+  905  chmod -R 777 e6f865d0edde44f49974db7cb0e2288b
+  906  tail -f /var/log/httpd/error_log
+  907  where python2.7
+  908  where python
+  909  python2.7
+  910  python
+  911  python2.7
+  912  locate python2.7
+  913  clear
+  914  obabel
+  915  cd ..
+  916  cd ../softwares/open_babel/
+  917  ls
+  918  tar zxf openbabel-2.3.1.tar.gz 
+  919  ls
+  920  mkdir build
+  921  cd build/
+  922  cmake ../openbabel-2.3.1
+  923  cmake ../openbabel-2.3.1 -DCMAKE_INSTALL_PREFIX=~/Tools -DCMAKE_BUILD_TYPE=DEBUG
+  924  make
+  925  ls
+  926  make install 
+  927  ls /lib/*xtc*
+  928  ls /lib/*so*
+  929  clear
+  930  yum install openbabel
+  931  obabel
+  932  openbabel
+  933  babel
+  934  python2.7
+  935  yum install rdkit
+  936  pip2 install rdkit
+  937  cd ..
+  938  ls
+  939  cd rdkit/
+  940  ls
+  941  tar -xvfz rdkit-Release_2018_09_1.tar.gz 
+  942  tar -xvf rdkit-Release_2018_09_1.tar.gz 
+  943  cd rdkit-Release_2018_09_1
+  944  ls
+  945  cat README
+  946  cat Docs/Book/Install.md 
+  947  ls
+  948  cd ..
+  949  ls
+  950  mkdir build
+  951  cd build/
+  952  ls
+  953  cmake ../rdkit-Release_2018_09_1
+  954  yum install cmake
+  955  yum install -U cmake
+  956  yum install cmake
+  957  yum upgrade cmake
+  958  yum update cmake
+  959  yum -y install cmake
+  960  cmake3 ../rdkit-Release_2018_09_1
+  961  yum -y install cmake3
+  962  ls
+  963  cmake3 ../rdkit-Release_2018_09_1
+  964  make
+  965  make install
+  966  ls
+  967  cd ..
+  968  ls
+  969  cd rdkit-Release_2018_09_1
+  970  ls
+  971  mkdir build
+  972  cmake3 ..
+  973  ls
+  974  cd build
+  975  cmake3 ..
+  976  make
+  977  make install
+  978  ls
+  979  cd rdkit
+  980  ls
+  981  make
+  982  cd ..
+  983  ls
+  984  cd ..
+  985  make
+  986  ls
+  987  cd ..
+  988  ls
+  989  cd ..
+  990  ls
+  991  cd PCA-Pred/
+  992  ls
+  993  conda create -c rdkit -n pcapred_env rdkit
+  994  conda activate pcapred_env
+  995  python2.7
+  996  pip2 install rdkit
+  997  python
+  998  python3.7 
+  999  exit
+ 1000  python3.7
+ 1001  pip2 install rdkit
+ 1002  pip install rdkit
+ 1003  pwd
+ 1004  cd /var/www/html/bioinfo2/softwares/
+ 1005  ls
+ 1006  cd rdkit/
+ 1007  ls
+ 1008  cd build/
+ 1009  ls
+ 1010  make
+ 1011  cmake3 ../rdkit-Release_2018_09_1
+ 1012  yum install gcc
+ 1013  yum -y install gcc
+ 1014  yum install devtoolset-7-gcc*
+ 1015  cd ..
+ 1016  ls
+ 1017  cd rdkit-2018.03.4-4.fc30.src
+ 1018  ls
+ 1019  cd Release_2018_03_4
+ 1020  ls
+ 1021  cd rdkit-Release_2018_03_4/
+ 1022  ls
+ 1023  mkdir build
+ 1024  cd build
+ 1025  cmake ..
+ 1026  cmake3 ..
+ 1027  cd ..
+ 1028  ls
+ 1029  cd ..
+ 1030  ls
+ 1031  cd ..
+ 1032  c ..
+ 1033  ls
+ 1034  cd ..
+ 1035  ls
+ 1036  rpm -i rdkit-2016.03.5-1.fc24.src.rpm 
+ 1037  yum localinstall rdkit-2016.03.5-1.fc24.src.rpm 
+ 1038  cd rdkit-2016.03.5-1.fc24.src
+ 1039  ls
+ 1040  tar -xvf Release_2016_03_5.tar.gz 
+ 1041  cd rdkit-Release_2016_03_5/
+ 1042  ls
+ 1043  mkdir build
+ 1044  cd build/
+ 1045  cmake ..
+ 1046  cmake3 ..
+ 1047  history| grep env
+ 1048  conda install -c conda-forge rdkit
+ 1049  python
+ 1050  python3.7
+ 1051  python2.7 
+ 1052  clear
+ 1053  cd ..
+ 1054  cd cgi-bin/
+ 1055  ls
+ 1056  cd pcapred/
+ 1057  ls
+ 1058  cd ed9c5cacd80444c1839ff1cf5041a6fb/
+ 1059  python3.7 carb_features.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1060  cd ..
+ 1061  python3.7
+ 1062  python3.7 carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1063  python2.7 carb_features_27.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1064  find libstdc++
+ 1065  cd ..
+ 1066  find libstdc++
+ 1067  ls
+ 1068  cd cgi-bin/
+ 1069  cd pcapred/
+ 1070  ls
+ 1071  python3.7 carb_features.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1072  cd ..
+ 1073  cd softwares/
+ 1074  ls
+ 1075  cd pychem/
+ 1076  ls
+ 1077  cd pychem-1.0
+ 1078  ls
+ 1079  python setup.py 
+ 1080  python setup.py install
+ 1081  clear
+ 1082  cd...
+ 1083  cd ..
+ 1084  cd cgi-bin/
+ 1085  cd pcapred/
+ 1086  ls
+ 1087  python3.7 carb_features.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1088  python2.7 carb_features_27.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1089  python3.7 carb_features_27.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1090  history |tail -n 100
+ 1091  clera
+ 1092  clear
+ 1093  python3.7 carb_features_27.py 
+ 1094  conda install -c rdkit rdkit=2020.03.1
+ 1095  python carb_features_rdkit.py ''C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1096  python carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1097  python
+ 1098  python3.7 carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1099  python3.6
+ 1100  python3.7
+ 1101  which python
+ 1102  conda --version
+ 1103  history| tail -100
+ 1104  python3.7 carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1105  which python3.7
+ 1106  python3.7 carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1107  python carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1108  python3.7 carb_features_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1109  python3.7 carb_features_rdkit.py 
+ 1110  pwd
+ 1111  cat carb_features_rdkit.py 
+ 1112  python3.7 carb_features_new_rdkit.py
+ 1113  python3.7 carb_features_new_rdkit.py 'C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C.C1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O[C@H]1[C@@H]([C@H]([C@@H]([C@@H](CO)O1)O)O)NC(=O)C)O)NC(=O)C'
+ 1114  history > hist.txt
