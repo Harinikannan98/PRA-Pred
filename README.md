@@ -5,8 +5,8 @@ This program takes the input of protein-DNA complex and predicts the binding aff
 
 Input options: User can input PDB ID of protein-RNA complex or can provide the file in PDB format. * User can enter the chain ID of protein. Multiple chain Ids can be entered with comma. (Eg. Chain ID: A,B) (Optional) User can enter the chain ID of RNA. Multiple chain Ids can be entered with comma. (Optional) User should select one of the RNA class for the prediction. *
 
-Single strand
-Double strand
+1. Single strand
+2. Double strand
 
 User should select one of the Functional class of protein for the prediction. *
 1. Enzyme
