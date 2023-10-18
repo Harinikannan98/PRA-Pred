@@ -9,15 +9,15 @@ Single strand
 Double strand
 
 User should select one of the Functional class of protein for the prediction. *
-Enzyme
-Regulatory
-other 
+1. Enzyme
+2. Regulatory
+3. other 
 
 User should select one of the strucutral class of protein for the prediction, if the DNA is double stranded *
 
-all-α
-all-β
-αβ
+1. all-α
+2. all-β
+3. αβ
 
 Dependencies:
 
