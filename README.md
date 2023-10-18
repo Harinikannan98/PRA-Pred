@@ -32,4 +32,4 @@ Run "python3 pdpredict.py"
 Enter option for PDB-ID and PDB-file
 Provide the PDB ID or PDB-file with chain
 Enter the RNA strand, strucutral and functional class
-The program will be executed, and the result will be provided in result.txt In the Form of PDB ID, Chain, Predicted affinity(kcal/mol), dissocation constant(M). You can also access it through the webserver https://web.iitm.ac.in/bioinfo2/pdapred/index.html
+The program will be executed, and the result will be provided in result.txt In the Form of PDB ID, Chain, Predicted affinity(kcal/mol), dissocation constant(M). You can also access it through the webserver https://web.iitm.ac.in/bioinfo2/prapred/index.html
