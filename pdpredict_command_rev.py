@@ -753,7 +753,7 @@ if __name__ == '__main__':
 						l=1
 						c=-1
 						k=0
-						hrise=[]
+						single_tilt=[]
 						#shutil.copytree("../x3dna-v2.4/bin", "x3dna-v2.4/bin")
 						
 						#os.system("source ~/.bashrc")
@@ -1886,54 +1886,55 @@ if __name__ == '__main__':
 						rise1=sum(rise[0])/len(rise[0])
 					print('other_class')
 				except:
-					try:
-						#shutil.copytree("../x3dna-v2.4/bin", "x3dna-v2.4/bin")
-						os.chdir("../x3dna-v2.4/bin")
+					#try:
+					#shutil.copytree("../x3dna-v2.4/bin", "x3dna-v2.4/bin")
+					os.chdir("../x3dna-v2.4/bin")
+					print(os.getcwd())					
+					#os.system(">ppoo")
+					#os.chdir("../bin")
+					#os.system("chmod -R a+X bin")
+					#os.system("chmod +X find_pair")
+					
+					#p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+					#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
+					#p4.wait()
+					
+					#p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb "+pdb_id_up+".bps",shell=True)
+					#p4.wait()	
+					#p4=subprocess.Popen("./analyze "+pdb_id_up+".bps",shell=True)
+					#p4.wait()	
+					
+					l=1
+					c=-1
+					k=0
+					Incl,rise=[],[]
+					with open(pdb_id_up+".out") as file:	
+						for j in file.readlines():
+							if "helical" in j:
+								k=1
+								Incl.append([])
+								rise.append([])
+								c=c+1
+							if k==1:
+								if "ave" in j:
+									j=j.strip()
+									s=[str for str in j.split(" ") if str.strip()]
+									Incl[c].append(float(s[4]))
+									rise[c].append(float(s[3]))
+									l=0
+									break
+						if l==1:
+							print(i+"error:single_base_step")
+						Incl1=sum(Incl[0])/len(Incl[0])
+						rise1=sum(rise[0])/len(rise[0])
 						
-						#os.system(">ppoo")
-						#os.chdir("../bin")
-						#os.system("chmod -R a+X bin")
-						#os.system("chmod +X find_pair")
 						
-						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
-						#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
-						p4.wait()
-						'''
-						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb "+pdb_id_up+".bps")
-						p4.wait()	
-						p4=subprocess.Popen("./analyze "+pdb_id_up+".bps")
-						p4.wait()	
-						'''
-						l=1
-						c=-1
-						k=0
-						Incl,rise=[],[]
-						with open(pdb_id_up+".out") as file:	
-							for j in file.readlines():
-								if "helical" in j:
-									k=1
-									Incl.append([])
-									rise.append([])
-									c=c+1
-								if k==1:
-									if "ave" in j:
-										j=j.strip()
-										s=[str for str in j.split(" ") if str.strip()]
-										Incl[c].append(float(s[4]))
-										rise[c].append(float(s[3]))
-										l=0
-										break
-							if l==1:
-								print(i+"error:single_base_step")
-							Incl1=sum(Incl[0])/len(Incl[0])
-							rise1=sum(rise[0])/len(rise[0])
-						
-					except:
-						print("</div>")
-						print("<center><div style='width:1000px;height:1000px;border-top:solid black;font-size:30px;color:red;size = '+2''>")
-						print("Error in step parameter calcualtion.Error in w3DNA, or Please download the source code at GitHub and use")
-						print("</div>")
-						exit()
+					#except:
+					#	print("</div>")
+					#	print("<center><div style='width:1000px;height:1000px;border-top:solid black;font-size:30px;color:red;size = '+2''>")
+					#	print("Error in step parameter calcualtion.Error in w3DNA, or Please download the source code at GitHub and use")
+					#	print("</div>")
+					#	exit()
 					os.chdir("../../"+randname)
 			'''
 			except:
@@ -1942,6 +1943,8 @@ if __name__ == '__main__':
 				print("</div>")
 				exit()	
 			'''
+			'''
+			print(os.getcwd())
 			p3=subprocess.Popen("./naccess "+pdb_id_up+".pdb -h", shell=True)
 			p3.wait()
 			rsa={}
@@ -1956,6 +1959,7 @@ if __name__ == '__main__':
 							if rows[2][0] in pol:	
 								rsa[pol[rows[2][0]]]=rsa[pol[rows[2][0]]]+float(rows[-2])
 			non_polar_asa=rsa["nonpolar"]
+			'''
 			#print(SC1,s_atoms1,bp_slide,bp_shift,non_polar_asa)
 			
 			#predval=-223.55348105782042 *(SC1)+1.9539991839704902 *(s_atoms1)+-1.308390501332273 *(bp_slide)+0.6994755185505096 *(bp_shift)+-0.0027643892605309084 *(non_polar_asa)+-9.980486180799497
