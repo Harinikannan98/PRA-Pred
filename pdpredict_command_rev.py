@@ -757,16 +757,16 @@ if __name__ == '__main__':
 						#shutil.copytree("../x3dna-v2.4/bin", "x3dna-v2.4/bin")
 						
 						#os.system("source ~/.bashrc")
-						#os.chdir("../x3dna-v2.4/bin")
+						os.chdir("../x3dna-v2.4/bin")
 						
 						#os.system(">ppoo")
 						#os.chdir("../bin")
 						#os.system("chmod -R a+X bin")
 						#os.system("chmod +X find_pair")
 						
-						#os.system("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
 						#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
-						#p4.wait()	
+						p4.wait()	
 						#p4=subprocess.Popen("./analyze "+pdb_id_up+".bps",shell=True)
 						#p4.wait()
 						
@@ -1480,6 +1480,15 @@ if __name__ == '__main__':
 					p4.wait()
 					'''
 					os.chdir("../x3dna-v2.4/bin")
+						
+					#os.system(">ppoo")
+					#os.chdir("../bin")
+					#os.system("chmod -R a+X bin")
+					#os.system("chmod +X find_pair")
+					
+					p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+					#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
+					p4.wait()
 					Buckle=[]
 					with open("bp_step.par") as file:	
 						for j in file.readlines():
@@ -1880,6 +1889,15 @@ if __name__ == '__main__':
 					try:
 						#shutil.copytree("../x3dna-v2.4/bin", "x3dna-v2.4/bin")
 						os.chdir("../x3dna-v2.4/bin")
+						
+						#os.system(">ppoo")
+						#os.chdir("../bin")
+						#os.system("chmod -R a+X bin")
+						#os.system("chmod +X find_pair")
+						
+						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+						#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
+						p4.wait()
 						'''
 						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb "+pdb_id_up+".bps")
 						p4.wait()	
@@ -2031,12 +2049,15 @@ if __name__ == '__main__':
 				except:
 					try:
 						os.chdir("../x3dna-v2.4/bin")
-						shutil.copyfile("../../"+randname+"/"+pdb_id_up+".pdb", pdb_id_up+".pdb")
-						os.system("chmod 777 "+pdb_id_up+".pdb")
-						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb "+pdb_id_up+".bps",shell=True)
-						p4.wait()	
-						p4=subprocess.Popen("./analyze "+pdb_id_up+".bps",shell=True)
-						p4.wait()	
+						
+						#os.system(">ppoo")
+						#os.chdir("../bin")
+						#os.system("chmod -R a+X bin")
+						#os.system("chmod +X find_pair")
+						
+						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+						#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
+						p4.wait()
 						l=1
 						c=-1
 						k=0
@@ -2095,10 +2116,15 @@ if __name__ == '__main__':
 			except:
 					try:
 						#shutil.copytree("../x3dna-v2.4/bin", "x3dna-v2.4/bin")
-						os.chdir("x3dna-v2.4/bin")
-						p4=subprocess.Popen("./find_pair "+pdb_id_up+" "+pdb_id_up+".bps",shell=True)
-						p4.wait()	
-						p4=subprocess.Popen("./analyze "+pdb_id_up+".bps",shell=True)
+						os.chdir("../x3dna-v2.4/bin")
+						
+						#os.system(">ppoo")
+						#os.chdir("../bin")
+						#os.system("chmod -R a+X bin")
+						#os.system("chmod +X find_pair")
+						
+						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+						#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
 						p4.wait()	
 						l=1
 						c=-1
@@ -2470,12 +2496,45 @@ if __name__ == '__main__':
 						Incl=incl[0][0]
 						print('other_class')
 				except:
-					print("</div>")
-					print("<center><div style='width:1000px;height:1000px;border-top:solid black;font-size:30px;color:red;size = '+2''>")
-					print("Error in step parameter calcualtion.Error in w3DNA, or Please download the source code at GitHub and use")
-					print("</div>")
-					exit()	
-				os.chdir("../../"+randname)
+					try:
+						os.chdir("../x3dna-v2.4/bin")
+						
+						#os.system(">ppoo")
+						#os.chdir("../bin")
+						#os.system("chmod -R a+X bin")
+						#os.system("chmod +X find_pair")
+						
+						p4=subprocess.Popen("./find_pair "+pdb_id_up+".pdb stdout | analyze stdin", shell=True)
+						#p4=subprocess.Popen("/var/www/html/bioinfo2/cgi-bin/prapred/x3dna-v2.4/bin/find_pair "+pdb_id_up+".pdb stdout | analyze stdin",shell=True)
+						p4.wait()
+						l=1
+						c=-1
+						k=0
+						incl=[]
+						with open(pdb_id_up+"_summary.txt") as file:	
+							for j in file.readlines():
+								if "helical" in j:
+									k=1
+									incl.append([])
+									c=c+1
+								if k==1:
+									if "ave" in j:
+										j=j.strip()
+										s=[str for str in j.split(" ") if str.strip()]
+										incl[c].append(float(s[4]))
+										l=0
+										break
+							if l==1:
+								print(i+"error:single_base_step")
+							Incl=incl[0][0]
+							print('other_class')
+					except:
+						print("</div>")
+						print("<center><div style='width:1000px;height:1000px;border-top:solid black;font-size:30px;color:red;size = '+2''>")
+						print("Error in step parameter calcualtion.Error in w3DNA, or Please download the source code at GitHub and use")
+						print("</div>")
+						exit()	
+					os.chdir("../../"+randname)
 			print("")
 			print("</div></center></div>")
 			print("<html>")
