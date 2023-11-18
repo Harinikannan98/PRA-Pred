@@ -20,7 +20,8 @@ Please ensure the packages such os,re, Bio, numpy, functools,sys, time, shutil, 
 Make sure to edit the naccess executable file with the path of local installation (Source: http://www.bioinf.manchester.ac.uk/naccess/).
 Also needs the installation of 3vvv software, used for volume and surface area calculation (Source: https://github.com/vosslab/vossvolvox)
 Kindly install the Foldx software. (Source: https://foldxsuite.crg.eu/)
-Execute x3dna_setup and add the path to environment variable.
+Execute x3dna_setup and add the path to environment variable (http://forum.x3dna.org/downloads/3dna-download/).
+Request and download the 3DNA.
 Run:
 
 Run "python3 pdpredict.py"
