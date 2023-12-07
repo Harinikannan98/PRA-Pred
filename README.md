@@ -1,6 +1,5 @@
 # PRA-Pred
 Protein-RNA binding affinity prediction
-PRA-Pred predicts protein-RNA binding affinity using structure-based features and classes based on RNA strand, structure and function of protein. We found that RNA base-step parameters, number of atomic contacts between the RNA and protein, interaction energies, contact potentials, and hydrogen bonds are important to understand the binding affinity. PRA-Pred shows a correlation of 0.88 and a mean absolute error(MAE) of 0.71 in Self-consistency, correlation of 0.77 and a MAE of 1.02 kcal/mol in jack-knife test.
 This program takes the input of protein-DNA complex and predicts the binding affinity.
 
 Input options: User can input PDB ID of protein-RNA complex or can provide the file in PDB format. * User can enter the chain ID of protein. Multiple chain Ids can be entered with comma. (Eg. Chain ID: A,B) (Optional) User can enter the chain ID of RNA. Multiple chain Ids can be entered with comma. (Optional) User should select one of the RNA class for the prediction. *
